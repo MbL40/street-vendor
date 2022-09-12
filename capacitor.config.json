@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "streetvendor",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

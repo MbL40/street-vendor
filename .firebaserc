@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "street-vendor-56ffa": {
+      "hosting": {
+        "app": [
+          "street-vendor-56ffa"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "street-vendor-56ffa"
+  }
+}

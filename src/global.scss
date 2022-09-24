@@ -9,16 +9,55 @@
  * https://ionicframework.com/docs/layout/global-stylesheets
  */
 
+
 /* Core CSS required for Ionic components to work properly */
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(./assets/fonts/OpenSans-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url(./assets/fonts/Montserrat-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url(./assets/fonts/Montserrat-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "OpenSans-SemiBold";
+    src: url(./assets/fonts/OpenSans-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url(./assets/fonts/Montserrat-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "FontAwesome";
+    src: url(./assets/fonts/fontawesome-regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url(./assets/fonts/OpenSans-Bold.ttf) format("truetype");
+}
+
 @import "~@ionic/angular/css/core.css";
 
 /* Basic CSS for apps built with Ionic */
+
 @import "~@ionic/angular/css/normalize.css";
 @import "~@ionic/angular/css/structure.css";
 @import "~@ionic/angular/css/typography.css";
-@import '~@ionic/angular/css/display.css';
+@import "~@ionic/angular/css/display.css";
 
 /* Optional CSS utils that can be commented out */
+
 @import "~@ionic/angular/css/padding.css";
 @import "~@ionic/angular/css/float-elements.css";
 @import "~@ionic/angular/css/text-alignment.css";
